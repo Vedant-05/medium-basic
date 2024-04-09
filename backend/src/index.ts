@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { userRouter } from "./user";
-import { blogRouter } from "./blog";
+import { userRouter } from "./routes/user";
+import { blogRouter } from "./routes/blog";
 
 const app = new Hono<{
   Bindings: {
